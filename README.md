@@ -47,6 +47,7 @@ To have an up-to-date project, verify when this template was last updated. If yo
 1.  Add vscode settings & extensions
 
     Configure vscode workspace settings. [See configuration.](./.vscode/settings.json)
+
     Configure vscode workspace extensions. [See configuration.](./.vscode/extensions.json)
 
 1.  Add utils
