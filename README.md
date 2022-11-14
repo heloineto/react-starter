@@ -22,7 +22,7 @@ To have an up-to-date project, verify when this template was last updated. If yo
 
 1.  Install Tailwind. [Instructions here.](https://tailwindcss.com/docs/guides/create-react-app)
 
-    Add automatic tailwind class sorting with prettier. [Instructions here](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+    Add automatic tailwind class sorting with prettier. [Instructions here.](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
 1.  Install ESLint. [Instructions here.](https://github.com/jsx-eslint/eslint-plugin-react)
 
@@ -40,4 +40,15 @@ To have an up-to-date project, verify when this template was last updated. If yo
 
     Install husky. [Instructions here.](https://typicode.github.io/husky/#/?id=install)
 
-    Add lint-staged. [Instructions here.](https://www.npmjs.com/package/lint-staged)
+    Install lint-staged. [Instructions here.](https://www.npmjs.com/package/lint-staged)
+
+    Configure lint-staged. [See configuration.](./package.json)
+
+1.  Add vscode settings & extensions
+
+    Configure vscode workspace settings. [See configuration.](./.vscode/settings.json)
+    Configure vscode workspace extensions. [See configuration.](./.vscode/extensions.json)
+
+1.  Add utils
+
+    Add classNames. [See file.](./src/lib/utils/classNames.ts)
