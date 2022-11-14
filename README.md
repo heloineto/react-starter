@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# React Starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack:
 
-## Available Scripts
+[React](https://reactjs.org/) | [TypeScript](https://www.typescriptlang.org/) | [ESLint](https://eslint.org/) | [Prettier](https://prettier.io/) | [Tailwind CSS](https://tailwindcss.com/) | [pnpm]()
 
-In the project directory, you can run:
+## How to use it
 
-### `npm start`
+To use this starter, run the following command to create your React app:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+pnpm create next-app my-app -e https://github.com/heloineto/next-starter
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Note:
 
-### `npm test`
+To have an up-to-date project, verify when this template was last updated. If you believe it was too long ago, consider recreating it following (and changing if necessary) the steps below.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to re-create it
 
-### `npm run build`
+1.  Start a new Create React App project with TypeScript. [Instructions here.](https://create-react-app.dev/docs/adding-typescript/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Install Tailwind. [Instructions here.](https://tailwindcss.com/docs/guides/create-react-app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Add automatic tailwind class sorting with prettier. [Instructions here](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Install ESLint. [Instructions here.](https://github.com/jsx-eslint/eslint-plugin-react)
 
-### `npm run eject`
+    Configure ESLint. [See configuration.](./.eslintrc.json)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    Install ESLint Plugin TypeScript. [Instructions here.](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  Install Prettier. [Instructions here.](https://prettier.io/docs/en/install.html)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Configure Prettier. [See configuration.](./.prettierrc)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    Install eslint-config-prettier. [See more.](https://prettier.io/docs/en/integrating-with-linters.html)
 
-## Learn More
+1.  Add Husky and lint-staged
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Install husky. [Instructions here.](https://typicode.github.io/husky/#/?id=install)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Add lint-staged. [Instructions here.](https://www.npmjs.com/package/lint-staged)

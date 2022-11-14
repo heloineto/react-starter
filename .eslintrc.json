@@ -1,0 +1,15 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/strict",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"prettier"
+	],
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2020,
+		"project": "./tsconfig.json"
+	}
+}
