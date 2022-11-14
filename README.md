@@ -2,15 +2,11 @@
 
 Tech Stack:
 
-[React](https://reactjs.org/) | [TypeScript](https://www.typescriptlang.org/) | [ESLint](https://eslint.org/) | [Prettier](https://prettier.io/) | [Tailwind CSS](https://tailwindcss.com/) | [pnpm]()
+[React](https://reactjs.org/) | [TypeScript](https://www.typescriptlang.org/) | [ESLint](https://eslint.org/) | [Prettier](https://prettier.io/) | [Tailwind CSS](https://tailwindcss.com/) | [pnpm](https://pnpm.io/)
 
 ## How to use it
 
-To use this starter, run the following command to create your React app:
-
-```
-pnpm create next-app my-app -e https://github.com/heloineto/next-starter
-```
+COMING SOON...
 
 Note:
 
