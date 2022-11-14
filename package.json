@@ -8,6 +8,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
 		"prepare": "husky install"
 	},
 	"dependencies": {
@@ -28,6 +29,8 @@
 		"@typescript-eslint/parser": "^5.42.1",
 		"autoprefixer": "^10.4.13",
 		"eslint": "^8.27.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
 		"eslint-plugin-react": "^7.31.10",
 		"husky": "^8.0.2",
 		"postcss": "^8.4.19",
@@ -57,7 +60,8 @@
 	"lint-staged": {
 		"src/**/*.{js,jsx}": [
 			"eslint --fix",
-			"git add -A"
+			"prettier --write",
+			"git add"
 		]
 	}
 }
