@@ -40,6 +40,8 @@ To have an up-to-date project, verify when this template was last updated. If yo
 
     Configure lint-staged. [See configuration.](./package.json)
 
+1.  Add commitlint. [Instructions here.](https://github.com/conventional-changelog/commitlint)
+
 1.  Add vscode settings & extensions
 
     Configure vscode workspace settings. [See configuration.](./.vscode/settings.json)
