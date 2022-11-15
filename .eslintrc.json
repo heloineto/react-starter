@@ -7,11 +7,16 @@
 		"plugin:@typescript-eslint/recommended-requiring-type-checking",
 		"plugin:import/errors",
 		"plugin:jsx-a11y/recommended",
+		"plugin:import/typescript",
+		"plugin:react/jsx-runtime",
 		"prettier"
 	],
 	"parserOptions": {
 		"sourceType": "module",
 		"ecmaVersion": 2020,
 		"project": "./tsconfig.json"
+	},
+	"rules": {
+		"@typescript-eslint/no-non-null-assertion": "off"
 	}
 }

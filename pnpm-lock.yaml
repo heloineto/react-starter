@@ -14,6 +14,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.42.1
   autoprefixer: ^10.4.13
   eslint: ^8.27.0
+  eslint-config-prettier: ^8.5.0
   eslint-plugin-import: ^2.26.0
   eslint-plugin-jsx-a11y: ^6.6.1
   eslint-plugin-react: ^7.31.10
@@ -47,6 +48,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   autoprefixer: 10.4.13_postcss@8.4.19
   eslint: 8.27.0
+  eslint-config-prettier: 8.5.0_eslint@8.27.0
   eslint-plugin-import: 2.26.0_jnohwm7eexgw7uduhweedcbnpe
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
   eslint-plugin-react: 7.31.10_eslint@8.27.0
@@ -4742,6 +4744,15 @@ packages:
       optionator: 0.8.3
     optionalDependencies:
       source-map: 0.6.1
+    dev: true
+
+  /eslint-config-prettier/8.5.0_eslint@8.27.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.27.0
     dev: true
 
   /eslint-config-react-app/7.0.1_fttrsu4g327gx6p4236oophz7e:

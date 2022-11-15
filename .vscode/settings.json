@@ -9,8 +9,8 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"eslint.packageManager": "pnpm",
 	"files.exclude": {
-		"**/.vscode": false,
-		"**/.next": false,
-		"**/.husky": false
+		"**/.vscode": true,
+		"**/.next": true,
+		"**/.husky": true
 	}
 }
