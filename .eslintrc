@@ -9,8 +9,10 @@
 		"plugin:jsx-a11y/recommended",
 		"plugin:import/typescript",
 		"plugin:react/jsx-runtime",
-		"prettier"
+		"plugin:prettier/recommended",
+		"plugin:prettier/recommended"
 	],
+	"plugins": ["prettier", "typescript-eslint", ""],
 	"parserOptions": {
 		"sourceType": "module",
 		"ecmaVersion": 2020,
